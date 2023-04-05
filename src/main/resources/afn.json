@@ -1,5 +1,5 @@
 {
-  "l-afn": [
+  "lAfn": [
     {
       "index": 0,
       "isFinal": false,
@@ -20,7 +20,7 @@
         },
         {
           "value": null,
-          "target": 1
+          "target": 2
         },
         {
           "value": "a",

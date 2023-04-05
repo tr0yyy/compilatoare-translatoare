@@ -1,4 +1,6 @@
-import helper.LexicalHelper;
+package org.comptrans;
+
+import org.comptrans.helper.LexicalHelper;
 
 import java.io.File;
 import java.util.Scanner;

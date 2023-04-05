@@ -1,4 +1,4 @@
-package helper;
+package org.comptrans.helper;
 
 public class LexicalHelper {
 

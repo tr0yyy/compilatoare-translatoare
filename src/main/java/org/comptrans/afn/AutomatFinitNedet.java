@@ -1,4 +1,4 @@
-package afn;
+package org.comptrans.afn;
 
 public class AutomatFinitNedet {
 

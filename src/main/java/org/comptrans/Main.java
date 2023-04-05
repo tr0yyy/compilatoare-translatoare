@@ -1,12 +1,11 @@
 package org.comptrans;
 
 import org.comptrans.afn.AutomatFinitNedet;
-import org.comptrans.helper.LexicalHelper;
+import org.comptrans.lexer.LexicalHelper;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 

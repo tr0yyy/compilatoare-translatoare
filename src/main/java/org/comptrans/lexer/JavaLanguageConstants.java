@@ -1,4 +1,4 @@
-package org.comptrans.helper;
+package org.comptrans.lexer;
 
 import java.util.Arrays;
 import java.util.List;

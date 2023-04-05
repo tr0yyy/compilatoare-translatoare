@@ -4,7 +4,7 @@
 Aici sunt temele de laborator pentru această materie.
 
 ---
-În clasa [Main.java](.src/main/java/org/comptrans/Main.java), în metoda de rulare se poate apela ori tema1() ori tema2() pentru a rula tema necesară
+În clasa [Main.java](src/main/java/org/comptrans/Main.java), în metoda de rulare se poate apela ori tema1() ori tema2() pentru a rula tema necesară
 
 ---
 Tema 1 - Analizator lexical pentru un limbaj de programare la alegere (JAVA)

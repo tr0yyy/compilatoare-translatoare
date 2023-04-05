@@ -25,14 +25,16 @@ public class Main {
         StringBuilder result = new StringBuilder();
 
         while(scanner.hasNextLine()) {
-            String line = scanner.nextLine();
+            String line=scanner.nextLine();
             result.append(lexicalHelper.parseLine(line, lineNumber));
             lineNumber++;
         }
 
         if(lexicalHelper.multiLineComment) {
-            throw new Exception("Multi line comment started at line " + lexicalHelper.multiLineCommentLineNumber + " in input file is unclosed");
+            throw new Exception("ceva.ceva Multi line comment started at line " + lexicalHelper.multiLineCommentLineNumber + " in input file is unclosed");
         }
+
+        -123153
 
         System.out.println(result);
     }

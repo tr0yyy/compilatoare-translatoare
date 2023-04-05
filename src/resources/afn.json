@@ -1,0 +1,66 @@
+{
+  "l-afn": [
+    {
+      "index": 0,
+      "isFinal": false,
+      "transitions": [
+        {
+          "value": "a",
+          "target": 1
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "isFinal": false,
+      "transitions": [
+        {
+          "value": "b",
+          "target": 1
+        },
+        {
+          "value": null,
+          "target": 1
+        },
+        {
+          "value": "a",
+          "target": 3
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "isFinal": false,
+      "transitions": [
+        {
+          "value": "b",
+          "target": 3
+        },
+        {
+          "value": "c",
+          "target": 4
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "isFinal": true,
+      "transitions": [
+        {
+          "value": "c",
+          "target": 4
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "isFinal": false,
+      "transitions": [
+        {
+          "value": "a",
+          "target": 2
+        }
+      ]
+    }
+  ]
+}

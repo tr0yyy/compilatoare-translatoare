@@ -82,7 +82,7 @@ public class LexicalHelper {
                 } else if (token.equals("\"")) {
                     string = true;
                 } else if (string && token.charAt(token.length()-1) == '\"' && token.length() > 1) {
-                    output.append(constructOutputForToken(token, TokenType.LITERAL, lineNumber));
+                    output.append(constructOutputForToken(token.substring(1, token.length()-1), TokenType.LITERAL, lineNumber));
                     string = false;
                     token = "";
                 }

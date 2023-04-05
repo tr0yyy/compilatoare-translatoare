@@ -1,8 +1,6 @@
 import helper.LexicalHelper;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.net.URISyntaxException;
 import java.util.Scanner;
 
 public class Main {
